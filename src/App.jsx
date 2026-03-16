@@ -1,15 +1,14 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className="min-h-screen font-sans">
-      {/* We will put Navbar here soon */}
-      <h1 className="text-center text-4xl font-bold text-brand-yellow mt-20">
-        Setup Complete! Let's Build.
-      </h1>
-      {/* We will put Hero here soon */}
+    <div className="min-h-screen bg-brand-black font-sans">
+      <Navbar />
+      <Hero />
     </div>
-  )
+  );
 }
 
 export default App;
