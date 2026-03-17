@@ -2,15 +2,15 @@ import React from 'react';
 
 const About = () => {
   return (
-    // 1. CHANGED: Background is now Dark Gray (bg-brand-dark)
+    
     <section className="py-24 bg-brand-dark border-t border-gray-900">
       
       <div className="max-w-7xl mx-auto px-8 md:px-16 flex flex-col md:flex-row gap-16 items-center">
         
-        {/* Left Side: Gym Image */}
+        {/* Left Gym Image */}
         <div className="md:w-1/2 relative">
           
-          {/* Yellow design added to the bottom-right corner and top left corner */}
+          {/* Yellow design around image */}
           <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-yellow z-0"></div>
           <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-brand-yellow z-0"></div>
           
@@ -22,7 +22,7 @@ const About = () => {
           />
         </div>
 
-        {/* Right Side: Text */}
+        {/* Right Text */}
         <div className="md:w-1/2">
           <h4 className="text-brand-yellow font-bold tracking-widest text-sm mb-2">ESTABLISHED 2023</h4>
           <h2 className="text-4xl md:text-5xl font-black text-brand-light mb-6">

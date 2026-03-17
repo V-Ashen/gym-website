@@ -11,10 +11,10 @@ const Hero = () => {
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/80"></div>
 
-      {/* CONTAINER: max-w-7xl mx-auto brings the left and right sides closer to the center */}
+      {/* auto center */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-8 md:px-16 py-20 flex flex-col md:flex-row items-center justify-between gap-12">
         
-        {/* Left Column: Text & Buttons */}
+        {/* Left-Text & Buttons */}
         <div className="md:w-1/2 flex flex-col items-start text-left">
           <h1 className="text-5xl md:text-7xl font-black text-brand-light leading-none mb-6">
             UNLEASH <br /> 
@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Right Column: Giant Logo graphic */}
+        {/* Right-Logo */}
         <div className="md:w-1/2 flex justify-center">
           <img 
             src={rblogo} 
