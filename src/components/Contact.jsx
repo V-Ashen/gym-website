@@ -23,7 +23,7 @@ const Contact = () => {
     }
   };
 
-  //VALIDATION part
+  //Validation part
   const validate = () => {
     const newErrors = {};
     if (!formData.name.trim()) newErrors.name = 'Name is required';
