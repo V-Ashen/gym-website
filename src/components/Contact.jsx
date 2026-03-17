@@ -57,7 +57,7 @@ const Contact = () => {
 
   return (
     
-    <section className="py-24 bg-brand-dark">
+    <section id="contact" className="py-24 bg-brand-dark">
       <div className="max-w-7xl mx-auto px-8 md:px-16 flex flex-col md:flex-row gap-16">
         
         {/* Left Side */}

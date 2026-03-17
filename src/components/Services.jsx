@@ -34,7 +34,7 @@ const ServiceCard = ({ title, description, icon }) => {
 
 const Services = () => {
   return (
-    <section className="py-24 bg-brand-black">
+    <section id="services" className="py-24 bg-brand-black">
       <div className="max-w-7xl mx-auto px-8 md:px-16">
         
         {/* Title on left, paragraph on right  */}

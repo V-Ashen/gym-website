@@ -5,7 +5,7 @@ import heroBg from '../assets/hero-bg.png';
 const Hero = () => {
   return (
     <section 
-      className="relative flex flex-col justify-center min-h-[85vh] bg-cover bg-center"
+      id="home" className="relative flex flex-col justify-center min-h-[85vh] bg-cover bg-center"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
       {/* 
